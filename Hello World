@@ -1,1 +1,9 @@
-$ cordova create hello com.example.hello HelloWorld 
+# Create initial Cordova app
+$ cordova create myApp
+$ cd myApp/
+
+$ cordova platform add ios (For iOS)
+$ cordova platform add android (For Android)
+
+# Add the plugin
+$ cordova -d plugin add <path-to-phonegap-layar-plugin>
